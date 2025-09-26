@@ -5,6 +5,11 @@ import ComponenteComUmaProp from "@/components/ComponenteComUmaProp";
 import ComponenteComVariasProps from "@/components/ComponenteComVariasProps.";
 import ComponenteComCondicional from "@/components/ComponenteComCondicional";
 import ComponenteComMapa from "@/components/ComponenteComMapa";
+import ComponenteComEventos from "@/components/ComponenteComEventos";
+import ComponenteComState from "@/components/ComponenteComState";
+import ComponenteUseEffect from "@/components/ComponenteUseEffect";
+import ComponenteComFormik from "@/components/ComponenteComFormik";
+
 
 export default function Home() {
   return (
@@ -17,7 +22,11 @@ export default function Home() {
         <ComponenteComUmaProp nome="Vick" />
         <ComponenteComVariasProps titulo="Perfil do Utilizador" cor="green" nome="Maria Neto" idade={25} />
         <ComponenteComCondicional />
-        <ComponenteComMapa />
+        <ComponenteComMapa/>
+        <ComponenteComEventos/>
+        <ComponenteComState/>
+        <ComponenteUseEffect/>
+        <ComponenteComFormik />
 
 
 

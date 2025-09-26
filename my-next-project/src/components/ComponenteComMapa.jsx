@@ -1,7 +1,7 @@
 // O MAP é usado para mostrar LISTAS de coisas
 // É como um "loop" que cria um elemento para cada item da lista
 // Para cada fruta na lista, cria um <p>
-// KEY é OBRIGATÓRIO! Ajuda o React a identificar cada item
+// KEY é OBRIGATÓRIO! Ajuda o React a identificar cada item 
 
 export default function ComponenteComMapa() {
 
